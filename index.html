@@ -10,11 +10,11 @@
   <title>Contact Us</title>
 </head>
 
-<body>
-  <header class="w-full">
+<body class="bg-[#FFFFE9;]">
+  <header class="w-full h-[53px] bg-[#CBCDA9]">
   </header>
 
-  <nav class="m-auto py-9 mb-10">
+  <nav class="w-[303px] m-auto py-[35px] mb-[41px]">
     <ul class="flex justify-between">
       <li><a class="font-medium text-lg" href="#">Home</a></li>
       <li><a class="text-lg font-normal" href="">About us</a></li>
@@ -23,26 +23,29 @@
   </nav>
 
   <main>
-    <div class="w-[663px] m-auto contact-info">
-      <h1 class="text-center heading text-8xl font-bold my-3 ">Contact Us</h1>
-      <p class="contact-message text-2xl font-semibold text-center pb-3">Get in touch! Have a question or feedback? Use our contact form or drop us an email. We're here to help!</p>
+    <div class="w-[663px] m-auto">
+      <h1 class="text-center font-source-serif-pro text-8xl font-bold my-3">Contact Us</h1>
+      <p class="contact-message text-2xl font-semibold text-center pb-8 leading-normal">Get in touch! Have a question or feedback? Use our contact form or drop us an email. We're here to help!</p>
     </div>
 
-    <div>
-      <div>
-        <form>
-          <h1>Get in touch with us</h1>
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" placeholder="Rachel Joe">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Rachel@domain.com">
-          <label for="message">Message</label>
-          <input type="text" name="message" id="message" placeholder="Type your query here.....">
+    <div class="flex w-[866px] mt-[62px] m-auto justify-center bg-[#201F1F] rounded-lg mb-32">
+      <div class="w-1/2 px-9 py-20">
+        <form class="flex flex-col">
+          <h1 class="text-white font-source-serif-pro text-[32px] tracking-[0.96px] leading-normal mb-[10px]">Get in touch with us</h1>
+
+          <label class="font-light text-xs tracking-[0.36px] leading-7" for="name">Name</label>
+          <input class="mb-[18px] h-[42.3px] rounded-sm pl-3 text-[11px] leading-4 font-light tracking-[0.055px]" type="text" name="name" id="name" placeholder="Rachel Joe">
+
+          <label class="font-light text-xs tracking-[0.36px] leading-7"  for="email">Email</label>
+          <input class="mb-[18px] h-[42.3px] rounded-sm pl-3 text-[12px] leading-4 font-light tracking-[0.06px]" type="email" name="email" id="email" placeholder="Rachel@domain.com">
+
+          <label class="font-light text-xs tracking-[0.36px] leading-7"  for="message">Message</label>
+          <input class="mb-[18px] h-[69.1px] rounded-sm pl-3 text-[12px] leading-4 font-light tracking-[0.06px]" type="text" name="message" id="message" placeholder="Type your query here.....">
         </form>
-        <button>Send my message</button>
+        <button class=" text-[#201F1F]font-source-serif-pro py-[9px] px-[25px] bg-[#F3F25B] rounded-[1.72px] tracking-[0.42px] leading-normal text-sm">Send my message</button>
       </div>
-      <div>
-        <img src="./images/map.png" alt="">
+      <div class="w-1/2">
+        <img class="w-full rounded-r-lg" src="./images/map.png" alt="">
       </div>
     </div>
   </main>

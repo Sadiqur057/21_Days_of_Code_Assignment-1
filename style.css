@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+header{
+  background: #CBCDA9;
+  height: 53px;
+}
+nav{
+  width: 303px;
+  font-family: 'Inter', sans-serif;
+}

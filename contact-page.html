@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Us</title>
+</head>
+
+<body class="bg-[#FFFFE9;]">
+  <header class="w-full h-[53px] bg-[#CBCDA9]">
+  </header>
+
+  <nav class="w-5/6 md:w-[303px] m-auto py-6 md:py-[35px]">
+    <ul class="flex justify-between">
+      <li><a class="font-medium text-lg" href="#">Home</a></li>
+      <li><a class="text-lg font-normal" href="./index.html">About us</a></li>
+      <li><a class="font-bold text-lg" href="./contact-page.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="w-5/6 m-auto lg:w-[663px]">
+      <h1 class="text-center font-source-serif-pro font-bold my-3 text-5xl md:text-6xl lg:text-8xl ">Contact Us</h1>
+      <p class="font-lato font-semibold text-center leading-normal text-lg md:text-xl lg:text-2xl lg:pb-8">Get in touch! Have a question or feedback? Use our contact form or drop us an email. We're here to help!</p>
+    </div>
+
+    <div class="flex w-[86%] items-center mt-10 lg:mt-[62px] m-auto justify-center md:bg-[#201F1F] rounded-lg mb-32 flex-col md:flex-row lg:w-[866px]">
+      <div class="w-full px-7 py-10 bg-[#201F1F] mb-6 rounded-lg  lg:px-9 lg:py-20 md:w-1/2 md:mb-0">
+        <form class="flex flex-col">
+          <h1 class="text-white font-source-serif-pro  tracking-[0.96px] leading-normal mb-[10px] text-2xl lg:text-[32px]">Get in touch with us</h1>
+
+          <label class="font-light text-xs tracking-[0.36px] leading-7" for="name">Name</label>
+          <input class="mb-[18px] h-[42.3px] rounded-sm pl-3 text-[11px] leading-4 font-light tracking-[0.055px]" type="text" name="name" id="name" placeholder="Rachel Joe">
+
+          <label class="font-light text-xs tracking-[0.36px] leading-7"  for="email">Email</label>
+          <input class="mb-[18px] h-[42.3px] rounded-sm pl-3 text-[12px] leading-4 font-light tracking-[0.06px]" type="email" name="email" id="email" placeholder="Rachel@domain.com">
+
+          <label class="font-light text-xs tracking-[0.36px] leading-7"  for="message">Message</label>
+          <input class="mb-[18px] h-[69.1px] rounded-sm pl-3 pb-7 text-[12px] leading-4 font-light tracking-[0.06px]" type="text" name="message" id="message" placeholder="Type your query here.....">
+        </form>
+        <button class=" text-[#201F1F]font-source-serif-pro py-[9px] px-[25px] bg-[#F3F25B] rounded-[1.72px] tracking-[0.42px] leading-normal text-sm">Send my message</button>
+      </div>
+      <div class="w-full md:w-1/2">
+        <img class="w-full rounded-lg md:rounded-r-lg md:rounded-l-none md:h-full" src="./images/map.png" alt="">
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

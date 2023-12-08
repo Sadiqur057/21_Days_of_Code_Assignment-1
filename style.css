@@ -13,9 +13,10 @@ nav a{
 .font-source-serif-pro{
   font-family: 'Source Serif Pro', sans-serif;
 }
-.contact-message{
+.font-lato{
   font-family: 'Lato', sans-serif;
 }
+
 label{
   color: #CCC6C6;
   font-family: 'Lexend Deca', sans-serif;
@@ -26,4 +27,15 @@ input{
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Lexend Deca;
   border: 0.368px solid #8D8D8D;
+}
+
+
+.display-section{
+  background-image: url('./images/banner.png');
+}
+.btn-secondary{
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+}
+.custom-border{
+  border-width: 2px;
 }

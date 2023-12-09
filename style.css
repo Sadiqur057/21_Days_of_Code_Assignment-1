@@ -2,19 +2,19 @@
 
 @import url('https://fonts.cdnfonts.com/css/source-serif-pro');
 
-header{
-  font-family: 'Lexend Deca', sans-serif;
-  
-}
-
-nav a{
-  font-family: 'Inter', sans-serif;
-}
 .font-source-serif-pro{
   font-family: 'Source Serif Pro', sans-serif;
 }
 .font-lato{
   font-family: 'Lato', sans-serif;
+}
+
+header{
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+nav a{
+  font-family: 'Inter', sans-serif;
 }
 
 label{
@@ -29,13 +29,9 @@ input{
   border: 0.368px solid #8D8D8D;
 }
 
-
 .display-section{
   background-image: url('./images/banner.png');
 }
 .btn-secondary{
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
-}
-.custom-border{
-  border-width: 2px;
 }
